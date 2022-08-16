@@ -1,0 +1,54 @@
+#score{
+    font-size: 30px;
+    font-family: 'Permanent Marker';
+padding-left: 120px;
+}
+#timer{
+    font-size: 30px;
+    font-family: 'Permanent Marker';
+float: right;
+padding-right: 120px;
+}
+body{
+    background-color: rgb(4, 99, 93);
+}
+h1{
+    font-family:'Permanent Marker' ;
+color: black;
+}
+
+p{
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+    color: rgb(255, 204, 0);
+}
+
+.footer{
+font-family: 'Permanent Marker';
+padding-top: 350;
+padding-left: 500;
+color: black;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:25px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px blue;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
